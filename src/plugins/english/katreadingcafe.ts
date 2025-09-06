@@ -10,8 +10,8 @@ class KatReadingCafePlugin implements Plugin.PluginBase {
     id = "katreadingcafe";
     name = "Kat Reading Cafe";
     icon = "src/en/katreadingcafe/icon.png";
-    site = "https://katreadingcafe.com";
-    version = "1.0.0";
+    site = "https://katreadingarchive.me";
+    version = "1.0.1";
 
     resolveUrl = (path: string) => {
         if (path.startsWith('http')) {
